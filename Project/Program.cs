@@ -8,8 +8,9 @@ namespace Project
 {
     public class Solution
     {
-        public static void DoIt()
+        public static bool Test(int i, int j)
         {
+            return true;
         }
 
         static void Main(string[] args)
