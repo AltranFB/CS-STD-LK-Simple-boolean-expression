@@ -17,11 +17,16 @@ namespace Project
              *  Solution.Test(2, 3) returns false
              *  Solution.Test(-3, 4) returns true 
              */
-            return true;
         }
 
         static void Main(string[] args)
         {
+            Console.WriteLine("First argument");
+            var input1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Second argument");
+            var input2 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("The entries are {0}OK", Solution.Test(input1, input2) ? "" : "NOT ");
         }
     }
 }
