@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project
+namespace SimpleBooleanExpression
 {
     public class Solution
     {
@@ -17,6 +17,7 @@ namespace Project
              *  Solution.Test(2, 3) returns false
              *  Solution.Test(-3, 4) returns true 
              */
+            throw new NotImplementedException();
         }
 
         static void Main(string[] args)
